@@ -44,15 +44,15 @@ function drawEverything() {
   }
   
   if (whichLightOn === 1) {
-    toggleYellowLight(true)
-  } else {
-    toggleYellowLight(false);
-  }
-  
-  if (whichLightOn === 2) {
     toggleGreenLight(true)
   } else {
     toggleGreenLight(false);
+  }
+  
+  if (whichLightOn === 2) {
+    toggleYellowLight(true)
+  } else {
+    toggleYellowLight(false);
   }
   
   startTimer();
