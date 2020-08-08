@@ -12,7 +12,7 @@ const GREEN_LIGHT_Y = 340;
 const TOTAL_LIGHTS = 3;
 
 let canvas, context;
-let centerX, centerY;
+let centerX;
 let swithLightTimer = SWITCH_LIGHT_TIMER;
 let whichLightOn = 0;
 
